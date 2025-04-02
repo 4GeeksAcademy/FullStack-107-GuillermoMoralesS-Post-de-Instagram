@@ -1,0 +1,49 @@
+body{font-family: 'Roboto Mono',monospace;
+background-color: black;
+height: 1000px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.post{background-color: white;
+    width: 600px;
+    overflow: hidden;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.post-header{display: flex;
+     justify-content: space-between;
+     padding: 15px;
+      align-items: center; 
+}
+
+.left{display: flex; 
+    align-items: center;
+    gap: 10px;
+}
+
+.iconoHTML5 i {
+    font-size: 27px;
+}
+
+.right .trespuntos {
+    font-size: 34px;
+}
+
+.text {
+    font-size: 16px;
+}
+
+.post-img img{ display: block; width: 100%;
+}
+
+.post-icons{display: flex;justify-content: space-between;margin-top: 13px;font-size: 30px;}
+
+.right-icons {
+    display: flex;margin-right: 20px;
+}
+.left-icons {display: flex;gap: 10px; margin-left: 15px;
+}
+.post-img-text{text-align: justify; font-size: 15px;padding: 12px;}
